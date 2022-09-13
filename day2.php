@@ -10,7 +10,7 @@ function primeCheck($number){
 	return 1;
 }
 
-$number = 4;
+$number = 5;
 $flag = primeCheck($number);
 if ($flag == 1)
 	echo "Prime";
@@ -29,7 +29,7 @@ echo "<br>" ;
 
 function checklower($sent){
     $sentlower = strtolower($sent);
-    if ($sent=== $sentlower){
+    if ($sent== $sentlower){
         return "your string is all lowercase " ;
    }
     else{
@@ -37,7 +37,7 @@ function checklower($sent){
     }
 }
 
-echo checklower("houSe");
+echo checklower("house");
 
 echo "<br>" ;
 
