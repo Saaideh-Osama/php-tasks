@@ -140,11 +140,27 @@ $arrr[1];}
     else { return $arrr[0] ;};}
 }
 
-echo sortit(array(2, -1, 10, 12, 6));
+echo sortit(array(2, -1, 10, -2, 6));
 echo "<br>";
+//  ----------------------------------------------------------------------------------------
+
+// for ($i=0;$i<=count($arrrr);$i++){
+// if (strlen($arrrr[$i]<strlen($arrrr[($i+1)]))){
+
+// }
+
+// }
+$array=array("the","this","there","therealestinhere","teacher",);
+$longest = "t";
+$shortest="t";
+foreach ($array as $index)
+
+$index_len = strlen($index); if ($index_len >= $longest) { $longest = $index_len;}
+$index_len = strlen($index); if ($index_len <= $shortest) { $shortest = $index_len;}
+echo $shortest;
+echo "<br>" ;
+echo $longest;
 ?>
-
-
 
 
 

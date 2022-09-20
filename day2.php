@@ -29,7 +29,7 @@ echo "<br>" ;
 
 function checklower($sent){
     $sentlower = strtolower($sent);
-    if ($sent== $sentlower){
+    if ($sent=== $sentlower){
         return "your string is all lowercase " ;
    }
     else{
@@ -91,7 +91,7 @@ echo "<br>" ;
 echo '<br>';
 
 function palindrome($string) {
-$result = str_replace(array("#", "'", ";" ,'/' , '\\' ,':' , '+'), '', $string);
+$result = str_replace(array("#", "'", ";" ,'/' , '\\' ,':' , '+',' '), '', $string);
 
 
   if ($result == strrev($result)){
@@ -101,7 +101,7 @@ $result = str_replace(array("#", "'", ";" ,'/' , '\\' ,':' , '+'), '', $string);
 	   echo'no it is not a palindrom' ;
   }
 }
-palindrome('kakak');
+palindrome('ttt ccc ttt');
 // function palindrom($inserted){
 // //    $z= array("#", "'", ";" ,'/' , '\\' ,':' , '+');
 // //     $text= str_replac((array("#", "'", ";" ,'/' , '\\' ,':' , '+'),"",$inserted);
